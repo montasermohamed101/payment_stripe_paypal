@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../../../core/utils/style.dart';
+import '../../../../../../core/utils/style.dart';
 
 class OrderInfoItem extends StatelessWidget {
   OrderInfoItem({Key? key, required this.title, required this.value}) : super(key: key);

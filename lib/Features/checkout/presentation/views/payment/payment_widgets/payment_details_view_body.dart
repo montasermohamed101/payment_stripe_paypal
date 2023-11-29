@@ -1,11 +1,10 @@
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
-import 'package:payment/Features/checkout/presentation/views/thanks_you_view.dart';
-import 'package:payment/Features/checkout/presentation/views/widgets/payment_methods_list_view.dart';
+import 'package:payment/Features/checkout/presentation/views/thank_you/thanks_you_view.dart';
 
-import '../../../../../core/widgets/custom_button.dart';
-import 'custom_credit_card.dart';
+import '../../../../../../core/widgets/custom_button.dart';
+import '../../card/card_widgets/custom_credit_card.dart';
 
 class PaymentDetailsViewBody extends StatefulWidget {
   @override
@@ -19,9 +18,9 @@ class _PaymentDetailsViewBodyState extends State<PaymentDetailsViewBody> {
   @override
   Widget build(BuildContext context) {
     return  CustomScrollView(slivers: [
-      const SliverToBoxAdapter(
-        child: PaymentMethodListView(),
-      ),
+      // const SliverToBoxAdapter(
+      //   child: PaymentMethodListView(),
+      // ),
       SliverToBoxAdapter(
         child: CustomCreditCard(formKey: formKey,autovalidateMode: autovalidateMode),
       ),

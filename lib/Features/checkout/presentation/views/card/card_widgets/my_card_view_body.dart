@@ -2,16 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:payment/Features/checkout/data/repos/checkout_repo_impl.dart';
 import 'package:payment/Features/checkout/presentation/manager/payment_cubit.dart';
-import 'package:payment/Features/checkout/presentation/views/payment_details.dart';
-import 'package:payment/Features/checkout/presentation/views/widgets/payment_method_bottom_sheet.dart';
-import 'package:payment/Features/checkout/presentation/views/widgets/payment_methods_list_view.dart';
-import 'package:payment/Features/checkout/presentation/views/widgets/total_price_widget.dart';
+import 'package:payment/Features/checkout/presentation/views/card/card_widgets/total_price_widget.dart';
 
-import '../../../../../core/utils/style.dart';
-import '../../../../../core/widgets/custom_button.dart';
-import 'cart_info_item.dart';
+import '../../../../../../core/widgets/custom_button.dart';
+import '../../payment/payment_widgets/payment_method_bottom_sheet.dart';
+import 'card_info_item.dart';
 
-class MyCartViewBody extends StatelessWidget {
+class MyCardViewBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {

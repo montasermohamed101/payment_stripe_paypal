@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
-import '../../../../../core/utils/style.dart';
+import '../../../../../../core/utils/style.dart';
 
 class CardInfoWidget extends StatelessWidget {
   const CardInfoWidget({

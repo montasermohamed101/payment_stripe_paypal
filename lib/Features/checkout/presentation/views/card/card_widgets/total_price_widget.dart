@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
 
-import '../../../../../core/utils/style.dart';
+import '../../../../../../core/utils/style.dart';
 
 class TotalPrice extends StatelessWidget {
   const TotalPrice({Key? key, required this.title, required this.value}) : super(key: key);
